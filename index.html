@@ -3,94 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>健康生活</title>
+    <title>圖片展示</title>
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
+
         body {
-            font-family: "Microsoft JhengHei", sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
+            background-color: #f5f5f5;
+        }
+
+        .image-container {
+            width: 100%;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            flex-direction: column;
         }
-        .container {
-            background: white;
-            border-radius: 20px;
-            padding: 40px;
-            max-width: 500px;
-            text-align: center;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-        }
-        h1 {
-            color: #333;
-            margin-bottom: 20px;
-            font-size: 2rem;
-        }
-        .highlight {
-            color: #667eea;
-        }
-        p {
-            color: #666;
-            line-height: 1.8;
-            margin-bottom: 20px;
-        }
-        .features {
-            display: flex;
-            justify-content: space-around;
-            margin: 30px 0;
-        }
-        .feature {
-            text-align: center;
-        }
-        .feature-icon {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-        }
-        .feature-text {
-            color: #333;
-            font-weight: bold;
-        }
-        .btn {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            border: none;
-            padding: 15px 40px;
-            font-size: 1.1rem;
-            border-radius: 30px;
-            cursor: pointer;
-            transition: transform 0.3s;
-        }
-        .btn:hover {
-            transform: scale(1.05);
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1 class="highlight">博明哥說過</h1>
-        <p>讀書是為了心平氣和的跟白癡講話，健身是為了讓白痴心平氣和地跟你說話</p>
-
-        <div class="features">
-            <div class="feature">
-                <div class="feature-icon">💪</div>
-                <div class="feature-text">增強體力</div>
-            </div>
-            <div class="feature">
-                <div class="feature-icon">😊</div>
-                <div class="feature-text">好心情</div>
-            </div>
-            <div class="feature">
-                <div class="feature-icon">🌙</div>
-                <div class="feature-text">優質睡眠</div>
-            </div>
-        </div>
-
-        <button class="btn">立即開始</button>
+    <div class="image-container">
+        <img src="ultra/page1.jpg" alt="Page 1">
+        <img src="ultra/page2.jpg" alt="Page 2">
+        <img src="ultra/page3.jpg" alt="Page 3">
+        <img src="ultra/page4.jpg" alt="Page 4">
+        <img src="ultra/page5.jpg" alt="Page 5">
     </div>
 </body>
 </html>
