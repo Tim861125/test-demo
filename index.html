@@ -27,6 +27,31 @@
             height: auto;
             display: block;
         }
+
+        .cta-button {
+            display: block;
+            width: 90%;
+            margin: 20px auto 40px;
+            padding: 20px 40px;
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50px;
+            box-shadow: 0 8px 20px rgba(238, 90, 36, 0.4);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 28px rgba(238, 90, 36, 0.5);
+        }
+
+        .cta-button:active {
+            transform: translateY(0);
+        }
     </style>
 </head>
 
@@ -36,8 +61,8 @@
         <img src="ultra/page2.jpg" alt="Page 2">
         <img src="ultra/page3.jpg" alt="Page 3">
         <img src="ultra/page4.jpg" alt="Page 4">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeDzGj9mdnR_P8A7BJplJ8mSK6aIkLHxkqp4-_J7eZuwE0ACQ/viewform" target="_blank">
-            <img src="ultra/page5.jpg" alt="Page 5">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeDzGj9mdnR_P8A7BJplJ8mSK6aIkLHxkqp4-_J7eZuwE0ACQ/viewform" target="_blank" class="cta-button">
+            馬上點我報名
         </a>
     </div>
 </body>
